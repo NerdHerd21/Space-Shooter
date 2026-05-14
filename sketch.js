@@ -190,6 +190,20 @@ function draw() {
 				noLoop();
 			}
 		}
+		if(enemy.collides(spaceship)){
+			if(gameRunning === true){
+				fill("#ff0000");
+				textAlign(CENTER,CENTER);
+				textSize(50);
+				text("G   A   M   E\n\nO   V   E   R\n\n\n\nclick to restart", width / 2, height / 2);
+				gameRunning = false
+			}
+				if(gameRunning === false){
+				allSprites.delete();
+				bgm.stop();
+				noLoop();
+			}
+		}
 	}
 
 
