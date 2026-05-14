@@ -1,7 +1,7 @@
 # Overview
-This is a simple "Space Invaders" style shmup made with p5play.
-Programming, artwork, and music made entirely by me.
-This is a WIP, I will try to update semi-frequently.
+This is a simple "Space Invaders" style shmup made with p5play.  
+Programming, artwork, and music made entirely by me.  
+This is a WIP, I will try to update semi-frequently.  
 
 # Instructions to play:
 
