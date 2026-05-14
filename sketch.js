@@ -227,7 +227,6 @@ function draw() {
 		bullet.vel.y = -10;
 		bullet.life = 180;
 		bullet.layer = 1;
-		bullet.debug = true;
 		cooldown += 20;
 	}
 	
